@@ -7,19 +7,19 @@ body {
 	text-align: middle;
 }
 
-.outer {
+.squares-outer {
     display: table;
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-.middle {
+.squares-middle {
     display: table-cell;
     vertical-align: middle;
 }
 
-.inner {
+.squares-inner {
     text-align: center;
     margin: 0 auto;
     user-select: none;
@@ -91,18 +91,15 @@ body {
 	border: solid 13px white;
 	display: none;
 	z-index: 3;
-	overflow-x: hidden;
-	overflow-y: auto;
-	padding: 10px;
 }
 
-.content-corner {
+.content .content-corner {
 	position: absolute;
 	background-size: 50px;
 	background-repeat: no-repeat;
 }
 
-.content-corner-top-right {
+.content .content-corner-top-right {
 	background-image: url("../img/close.png");
 	width: 50px;
 	height: 50px;
@@ -110,7 +107,7 @@ body {
 	top: 10px;
 }
 
-.content-corner-top-left {
+.content .content-corner-top-left {
 	background-image: url("../img/corner.png");
 	width: 50px;
 	height: 50px;
@@ -118,7 +115,7 @@ body {
 	top: 10px;
 }
 
-.content-corner-bottom-right {
+.content .content-corner-bottom-right {
 	background-image: url("../img/corner.png");
 	transform: rotate(180deg);
 	width: 50px;
@@ -142,6 +139,10 @@ body {
 	background-repeat: no-repeat;
 	opacity: 1;
 }
+
+.content .corners {padding: 15px;padding-right: px;width: 100%;height: 100%;}
+
+.content .wrapper {height: inherit;overflow-x:hidden;overflow-y: auto;}
 
 /*
 .close:hover + .content-corner-top-right {

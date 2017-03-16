@@ -9,9 +9,9 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	</head>
 	<body class="homepage">
-		<div class="outer">
-			<div class="middle">
-				<div class="inner">
+		<div class="squares-outer">
+			<div class="squares-middle">
+				<div class="squares-inner">
 					<div id="squares" class="link-heading">
 						<div id="square1" data-id="1" class="square square-small">
 							<p class="caption">About</p>
@@ -45,55 +45,57 @@
             </div>
 		</div>
 		<div id="content2" class="content">
-			<div class="content-corner content-corner-top-left"></div>
-			<button class="close"></button>
-			<div class="content-corner content-corner-top-right"></div>
-			<div class="content-corner content-corner-bottom-right"></div>
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">TEAM</h2>
-                    <div class="row">
-						<div class="col-lg-12 text-center">
-							<h3 class="section-subheading text-muted">Get to know the Musaic Team</h3>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-3">
-							<div class="team-member">
-								<img src="img/team/fotos_bw/1.jpg" class="img-responsive img-square" alt="" onmouseover="this.src ='img/team/fotos_filtro/1.jpg'"  onmouseout="this.src='img/team/fotos_bw/1.jpg'">
+			<div class="corners">
+				<div class="content-corner content-corner-top-left"></div>
+				<button class="close"></button>
+				<div class="content-corner content-corner-top-right"></div>
+				<div class="content-corner content-corner-bottom-right"></div>
+				<div class="wrapper">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<h2 class="section-heading">TEAM</h2>
+						<div class="row">
+							<div class="col-lg-12 text-center">
+								<h3 class="section-subheading text-muted">Get to know the Musaic Team</h3>
 							</div>
 						</div>
-                        <div class="col-sm-3">
-							<div class="team-member">
-								<img src="img/team/fotos_bw/2.jpg" class="img-responsive img-square" alt="" onmouseover="this.src ='img/team/fotos_filtro/2.jpg'"  onmouseout="this.src='img/team/fotos_bw/2.jpg'">
+						<div class="row">
+							<div class="col-sm-3">
+								<div class="team-member">
+									<img src="img/team/fotos_bw/1.jpg" class="img-responsive img-square" alt="" onmouseover="this.src ='img/team/fotos_filtro/1.jpg'"  onmouseout="this.src='img/team/fotos_bw/1.jpg'">
+								</div>
 							</div>
-						</div>
-                        <div class="col-sm-3">
-							<div class="team-member">
-								<img src="img/team/fotos_bw/17.jpg" class="img-responsive img-square" alt="" onmouseover="this.src ='img/team/fotos_filtro/17.jpg'"  onmouseout="this.src='img/team/fotos_bw/17.jpg'">
+							<div class="col-sm-3">
+								<div class="team-member">
+									<img src="img/team/fotos_bw/2.jpg" class="img-responsive img-square" alt="" onmouseover="this.src ='img/team/fotos_filtro/2.jpg'"  onmouseout="this.src='img/team/fotos_bw/2.jpg'">
+								</div>
 							</div>
-						</div>
-                        <div class="col-sm-3">
-							<div class="team-member">
-								<img src="img/team/fotos_bw/37.jpg" class="img-responsive img-square" alt="" onmouseover="this.src ='img/team/fotos_filtro/37.jpg'"  onmouseout="this.src='img/team/fotos_bw/37.jpg'">
+							<div class="col-sm-3">
+								<div class="team-member">
+									<img src="img/team/fotos_bw/17.jpg" class="img-responsive img-square" alt="" onmouseover="this.src ='img/team/fotos_filtro/17.jpg'"  onmouseout="this.src='img/team/fotos_bw/17.jpg'">
+								</div>
 							</div>
-						</div>
-                        <div class="col-sm-3">
-							<div class="team-member">
-								<img src="img/team/fotos_bw/22.jpg" class="img-responsive img-square" alt="" onmouseover="this.src ='img/team/fotos_filtro/22.jpg'"  onmouseout="this.src='img/team/fotos_bw/22.jpg'">
+							<div class="col-sm-3">
+								<div class="team-member">
+									<img src="img/team/fotos_bw/37.jpg" class="img-responsive img-square" alt="" onmouseover="this.src ='img/team/fotos_filtro/37.jpg'"  onmouseout="this.src='img/team/fotos_bw/37.jpg'">
+								</div>
 							</div>
+							<div class="col-sm-3">
+								<div class="team-member">
+									<img src="img/team/fotos_bw/22.jpg" class="img-responsive img-square" alt="" onmouseover="this.src ='img/team/fotos_filtro/22.jpg'"  onmouseout="this.src='img/team/fotos_bw/22.jpg'">
+								</div>
+							</div>
+							<script>
+								for (i = 3; i < 42; i++) {
+									if(i != 17 && i != 22 && i != 37){
+										document.write("<div class=\"col-sm-3\">" + 
+														 "<div class=\"team-member\">" +
+																"<img src=\"img/team/fotos_bw/" + i + ".jpg\" class=\"img-responsive img-square\" alt=\"\" onmouseover=\"this.src='img/team/fotos_filtro/" + i + ".jpg'\" onmouseout=\"this.src='img/team/fotos_bw/" + i + ".jpg'\">" +
+														 "</div>" +
+													  "</div>");
+									}
+								}
+							</script>
 						</div>
-                        <script>
-                            for (i = 3; i < 42; i++) {
-                                if(i != 17 && i != 22 && i != 37){
-                                    document.write("<div class=\"col-sm-3\">" + 
-							                         "<div class=\"team-member\">" +
-								                            "<img src=\"img/team/fotos_bw/" + i + ".jpg\" class=\"img-responsive img-square\" alt=\"\" onmouseover=\"this.src='img/team/fotos_filtro/" + i + ".jpg'\" onmouseout=\"this.src='img/team/fotos_bw/" + i + ".jpg'\">" +
-							                         "</div>" +
-						                          "</div>");
-                                }
-                            }
-                        </script>
 					</div>
 				</div>
 			</div>
