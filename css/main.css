@@ -140,7 +140,7 @@ body {
 	opacity: 1;
 }
 
-.content .corners {padding: 15px;padding-right: 10px;width: 100%;height: 100%;}
+.content .corners {padding: 10px;width: 100%;height: 100%;}
 
 .content .wrapper {height: inherit;overflow-x:hidden;overflow-y: auto;}
 
