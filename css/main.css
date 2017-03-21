@@ -195,7 +195,8 @@ body {
 	z-index: 0;
 }
 
-.caption {
+
+.square .caption {
 	display: flex;
 	justify-content: center; /* align horizontal */
 	align-items: center; /* align vertical */
@@ -229,12 +230,14 @@ body {
 }
 
 .team-member {
+  position: relative;
   text-align: center;
   margin-bottom: 50px;
 }
 .team-member img {
   margin: 0 auto;
-  border: 7px solid white;
+  position: relative;
+  /* border: 7px solid white; */
 }
 .team-member h4 {
   margin-top: 25px;
@@ -242,5 +245,32 @@ body {
   text-transform: none;
 }
 .team-member p {
-  margin-top: 0;
+  display: table;
+  margin: 0 auto;
+}
+
+.team-member > .caption {
+	position: absolute;
+	bottom: 0;
+	z-index: 9999;
+	width: 100%;
+	opacity: 0;
+	font-family: Arial, sans-serif;
+	padding: 5px;
+	color: white;
+	/*background-color: rgba(255, 255, 255, 0.8);*/
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: all 0.5s;
+}
+
+.team-member:hover > .caption {
+	opacity: 1;
+}
+
+.team-member-role {
+	font-size: 10px;
+}
+
+.team-member-background {
+	font-size: 10px;
 }
