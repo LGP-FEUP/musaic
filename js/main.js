@@ -24,6 +24,24 @@ var teamMembers = [
 		background: "Service Engineering"
 	},
 	{
+		id: 40,
+		name: "Filipa Brito",
+		role: "Team Leader - A",
+		background: "Computer Engineering"
+	},
+	{
+		id: 10,
+		name: "Sérgio Domingues",
+		role: "Team Leader - B",
+		background: "Computer Engineering"
+	},
+	{
+		id: 23,
+		name: "Afonso Castro",
+		role: "Team Leader - C",
+		background: "Computer Engineering"
+	},
+	{
 		id: 37,
 		name: "Pedro Castro",
 		role: "Team Leader - D",
@@ -67,11 +85,6 @@ var teamMembers = [
 	{
 		id: 9,
 		name: "Hugo Machado",
-		background: "Computer Engineering"
-	},
-	{
-		id: 10,
-		name: "Sérgio Domingues",
 		background: "Computer Engineering"
 	},
 	{
@@ -123,11 +136,6 @@ var teamMembers = [
 		id: 21,
 		name: "Marco Diniz",
 		background: "Service Engineering"
-	},
-	{
-		id: 23,
-		name: "Afonso Castro",
-		background: "Computer Engineering"
 	},
 	{
 		id: 24,
@@ -203,11 +211,6 @@ var teamMembers = [
 		id: 39,
 		name: "Daniela Ribeiro",
 		background: "Multimedia"
-	},
-	{
-		id: 40,
-		name: "Filipa Brito",
-		background: "Computer Engineering"
 	},
 	{
 		id: 41,
