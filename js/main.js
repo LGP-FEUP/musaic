@@ -7,7 +7,7 @@ var teamMembers = [
 	},
 	{
 		id: 2,
-		name: "Jo„o Silva",
+		name: "Jo√£o Silva",
 		role: "CTO",
 		background: "Computer Engineering"
 	},
@@ -36,17 +36,17 @@ var teamMembers = [
 	},
 	{
 		id: 3,
-		name: "Jo„o Duarte",
+		name: "Jo√£o Duarte",
 		background: "Computer Engineering"
 	},
 	{
 		id: 4,
-		name: "AndrÈ Pinto",
+		name: "Andr√© Pinto",
 		background: "Computer Engineering"
 	},
 	{
 		id: 5,
-		name: "JosÈ Rebelo",
+		name: "Jos√© Rebelo",
 		background: "Computer Engineering"
 	},
 	{
@@ -71,7 +71,7 @@ var teamMembers = [
 	},
 	{
 		id: 10,
-		name: "SÈrgio Domingues",
+		name: "S√©rgio Domingues",
 		background: "Computer Engineering"
 	},
 	{
@@ -91,7 +91,7 @@ var teamMembers = [
 	},
 	{
 		id: 14,
-		name: "InÍs Caldas",
+		name: "In√™s Caldas",
 		background: "Computer Engineering"
 	},
 	{
@@ -116,7 +116,7 @@ var teamMembers = [
 	},
 	{
 		id: 20,
-		name: "JosÈ Pedro",
+		name: "Jos√© Pedro",
 		background: "Computer Engineering"
 	},
 	{
@@ -131,7 +131,7 @@ var teamMembers = [
 	},
 	{
 		id: 24,
-		name: "Jo„o Figueiredo",
+		name: "Jo√£o Figueiredo",
 		background: "Computer Engineering"
 	},
 	{
@@ -156,7 +156,7 @@ var teamMembers = [
 	},
 	{
 		id: 29,
-		name: "Jo„o Nogueira",
+		name: "Jo√£o Nogueira",
 		background: "Computer Engineering"
 	},
 	{
@@ -186,7 +186,7 @@ var teamMembers = [
 	},
 	{
 		id: 35,
-		name: "Cristina AssunÁ„o",
+		name: "Cristina Assun√ß√£o",
 		background: "Multimedia"
 	},
 	{
@@ -211,7 +211,7 @@ var teamMembers = [
 	},
 	{
 		id: 41,
-		name: "Jo„o Paiva",
+		name: "Jo√£o Paiva",
 		background: "Multimedia"
 	}
 ]
