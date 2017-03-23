@@ -24,6 +24,12 @@ var teamMembers = [
 		background: "Service Engineering"
 	},
 	{
+		id: 36,
+		name: "Raquel Soares",
+		role: "CMO",
+		background: "Multimedia"
+	},
+	{
 		id: 40,
 		name: "Filipa Brito",
 		role: "Team Leader - A",
@@ -198,11 +204,6 @@ var teamMembers = [
 		background: "Multimedia"
 	},
 	{
-		id: 36,
-		name: "Raquel Soares",
-		background: "Multimedia"
-	},
-	{
 		id: 38,
 		name: "Alonso Torres",
 		background: "Multimedia"
@@ -223,7 +224,7 @@ $( document ).ready(function() {
 	var team = $("#team");
 	for (var i = 0; i < teamMembers.length; i++) {
 		var teamMember = teamMembers[i];
-		var teamMemberHTML = '<div class="col-sm-3">'
+		var teamMemberHTML = '<div class="col-sm-4">'
 								+'<div class="team-member" data-id="' + teamMember.id + '">'
 									+'<img src="img/team/fotos_bw/' + teamMember.id + '.jpg" class="img-responsive img-square" alt="' + teamMember.name + '">'
 									+'<div class="caption">'
