@@ -229,6 +229,10 @@ body {
 	color: white;
 }
 
+#team {
+	margin :0.5em;
+}
+
 .team-member {
   position: relative;
   text-align: center;
