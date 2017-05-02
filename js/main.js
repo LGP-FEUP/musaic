@@ -103,11 +103,7 @@ var teamMembers = [
 		name: "Pedro Melo",
 		background: "Computer Engineering"
 	},
-	{
-		id: 13,
-		name: "Paulo Andrade",
-		background: "Service Engineering"
-	},
+	
 	{
 		id: 14,
 		name: "Inês Caldas",
@@ -183,11 +179,7 @@ var teamMembers = [
 		name: "Francisco Veiga",
 		background: "Computer Engineering"
 	},
-	{
-		id: 32,
-		name: "Ricardo Lopes",
-		background: "Computer Engineering"
-	},
+	
 	{
 		id: 33,
 		name: "Pedro Moura",
@@ -211,6 +203,11 @@ var teamMembers = [
 	{
 		id: 39,
 		name: "Daniela Ribeiro",
+		background: "Multimedia"
+	},
+	{
+		id: 42,
+		name: "Inês Melo",
 		background: "Multimedia"
 	},
 	{
