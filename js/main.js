@@ -251,10 +251,6 @@ $( document ).ready(function() {
 		content.height(square.outerHeight());
 		square.hide();
 
-		content.click(function(event){
-			event.stopPropagation();
-		});
-
 		content.animate({
 			backgroundColor: "white",
 			left: "10%",
@@ -262,8 +258,10 @@ $( document ).ready(function() {
 			width: "80%",
 			height: "80%"
 		}, 400, function () {
-			$(window).click(function() {
-				closeContent(content, square);
+			$(window).click(function(event) {
+				if(!$(event.target).closest(content).length) {
+					closeContent(content, square);
+				}
 			});
 			$(document).keyup(function(e) {
 				 if (e.keyCode == 27) {
