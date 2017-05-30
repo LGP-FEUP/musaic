@@ -182,10 +182,12 @@ body {
 
 .content .wrapper {height: inherit;overflow-x:hidden;overflow-y: auto;}
 
-/*
-.close:hover + .content-corner-top-right {
-	background-image: url("../img/close_hover.png");
-}*/
+.content p {
+	font-family: Calibri, Arial;
+	text-align: justify;
+	line-height: 22px;
+	font-size: 16px;
+}
 
 .name {
 	margin-left: -100px;
